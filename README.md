@@ -97,5 +97,8 @@ https://public.tableau.com/app/profile/guillermo.teran3150
 
 https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos?publish=yes
 
+https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos 
+
+
 
 
