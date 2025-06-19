@@ -1,206 +1,151 @@
-# Caso-de-Estudio-Dashboard-de-Ventas-Productos-Agroquimicos
+# Caso de Estudio: Dashboard de Ventas de Productos Agroquímicos
 
 ## ES Español
 
-Descripción del Proyecto
+**Rol:** Analista de Datos / Visualización  
+**Tecnologías:** Tableau Public, Microsoft Excel
 
+### Descripción del Proyecto  
 Como parte de un proyecto personal orientado a mi desarrollo profesional, diseñé un dashboard interactivo en Tableau Public para analizar las ventas mensuales de productos agroquímicos en dos locales (una tienda principal y una sucursal). El objetivo fue crear una herramienta visual que permitiera simular la toma de decisiones basada en datos dentro de una empresa del sector, abarcando métricas clave como ventas, utilidad y comportamiento por familia de producto.
 
-## Objetivos del Proyecto
-Visualizar las ventas mensuales de productos agroquímicos por tienda.
+### Objetivos del Proyecto  
+- Visualizar las ventas mensuales de productos agroquímicos por tienda.  
+- Medir el rendimiento de las principales familias de productos.  
+- Identificar los productos más vendidos (top 10).  
+- Evaluar la utilidad generada por producto y por local.  
+- Permitir un análisis comparativo entre la tienda principal y la sucursal.
 
-Medir el rendimiento de las principales familias de productos.
+### Fuente de Datos  
+Archivo: Ventas_Agroquimicos.xlsx (Documento local)  
 
-Identificar los productos más vendidos (top 10).
+Estructura de la tabla:  
+- Tipo_Documento, Numero_Documento, Fecha_Emision  
+- Referencia_Producto, Producto, Cantidad_Vendida  
+- Precio_Unitario, Costo_Unitario  
+- Descuento_Venta, Descuento_Afiliado, Tarjeta_Afiliado  
+- Subfamilia_Producto, Familia_Producto  
+- Cliente, Total_Descuento_Venta, Total_Descuento_Afiliado  
+- Total_Costo, Total_Venta, Utilidad  
+- Unidad_Venta, Tienda, Hora_Venta
 
-Evaluar la utilidad generada por producto y por local.
-
-Permitir un análisis comparativo entre la tienda principal y la sucursal.
-
-## Fuente de Datos
-Archivo: Ventas_Agroquimicos.xlsx
-Ubicación: Documento local
-Estructura de la tabla:
-
-Tipo_Documento, Numero_Documento, Fecha_Emision
-
-Referencia_Producto, Producto, Cantidad_Vendida
-
-Precio_Unitario, Costo_Unitario
-
-Descuento_Venta, Descuento_Afiliado, Tarjeta_Afiliado
-
-Subfamilia_Producto, Familia_Producto
-
-Cliente, Total_Descuento_Venta, Total_Descuento_Afiliado
-
-Total_Costo, Total_Venta, Utilidad
-
-Unidad_Venta, Tienda, Hora_Venta
-
-## Frecuencia de Actualización
+### Frecuencia de Actualización  
 Datos fijos utilizados para el análisis (no contempla actualizaciones en tiempo real).
 
-## Usuarios del Dashboard
-Usuarios objetivo: Profesionales del área comercial y analítica del sector agroquímico.
-Uso estimado: Semanal o mensual, para evaluar rendimiento de productos y puntos de venta.
+### Usuarios del Dashboard  
+Profesionales del área comercial y analítica del sector agroquímico.  
+Uso estimado: semanal o mensual para evaluar rendimiento de productos y puntos de venta.
 
-## Contenido y Visualizaciones del Dashboard
-KPIs generales: Total de ventas, total de utilidad, porcentaje de utilidad. ✅
+### Contenido y Visualizaciones del Dashboard  
+- KPIs generales: total de ventas, total de utilidad, porcentaje de utilidad. ✅  
+- Gráfico de barras: top 10 productos más vendidos. ✅  
+- Gráfico de líneas: evolución de ventas a lo largo del tiempo. ✅  
+- Filtros disponibles:  
+  - Mes (enero, febrero) ✅  
+  - Tienda (principal, sucursal) ✅  
+  - Familia de producto ✅  
+- Todos los filtros interactúan con las visualizaciones principales. ✅
 
-Gráfico de barras: Top 10 productos más vendidos. ✅
+### Herramientas Utilizadas  
+- Visualización y dashboard: Tableau Public  
+- Procesamiento de datos previos: Microsoft Excel  
+- Base de datos: archivo plano simulado
 
-Gráfico de líneas: Evolución de ventas a lo largo del tiempo. ✅
+### Análisis Realizado con el Dashboard  
+- ¿Cuáles son los productos más vendidos?  
+  El dashboard identifica el top 10 mensual por cantidad vendida.  
+- ¿Cómo varía la rentabilidad entre tiendas?  
+  Se visualiza claramente la utilidad generada por tienda y por familia de producto.  
+- ¿Qué impacto tienen las familias de productos en las ventas totales?  
+  El filtro permite analizar cómo ciertas familias dominan las ventas en cada tienda.
 
-Filtros disponibles:
+### Insights Clave  
+- La tienda principal genera mayores ingresos, pero la sucursal muestra márgenes de utilidad más altos en ciertas familias.  
+- Algunas familias tienen alta rotación pero baja rentabilidad, lo que puede motivar cambios en precios o promociones.  
+- El ranking de productos más vendidos ayuda a enfocar esfuerzos comerciales y de inventario.
 
-Mes (enero, febrero) ✅
+### Resultados y Beneficios  
+- Automatización del análisis mensual de ventas, facilitando visualización clara y rápida.  
+- Mejora en la capacidad de interpretación de datos sin necesidad de hojas de cálculo.  
+- Simulación de una herramienta real de apoyo comercial con estructura profesional para portafolio.
 
-Tienda (principal, sucursal) ✅
+### Enlaces al Dashboard  
+- [Perfil Tableau Public](https://public.tableau.com/app/profile/guillermo.teran3150)  
+- [Dashboard Productos Agroquímicos (Public)](https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos?publish=yes)  
+- [Dashboard Productos Agroquímicos](https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos)  
 
-Familia de producto ✅
-
-Todos los filtros interactúan con las visualizaciones principales. ✅
-
-## Herramientas Utilizadas
-Visualización y dashboard: Tableau Public
-
-Procesamiento de datos previos: Microsoft Excel
-
-Base de datos: Archivo plano simulado
-
-Análisis Realizado con el Dashboard
-¿Cuáles son los productos más vendidos?
-El dashboard identifica el top 10 mensual por cantidad vendida.
-
-¿Cómo varía la rentabilidad entre tiendas?
-Se visualiza claramente la utilidad generada por tienda y por familia de producto.
-
-¿Qué impacto tienen las familias de productos en las ventas totales?
-El filtro permite analizar cómo ciertas familias dominan las ventas en cada tienda.
-
-## Insights Clave
-La tienda principal genera mayores ingresos, pero la sucursal muestra márgenes de utilidad más altos en ciertas familias.
-
-Algunas familias tienen alta rotación pero baja rentabilidad, lo que puede motivar cambios en precios o promociones.
-
-El ranking de productos más vendidos ayuda a enfocar esfuerzos comerciales y de inventario.
-
-## Resultados y Beneficios
-Automatización del análisis mensual de ventas, facilitando visualización clara y rápida.
-
-Mejora en la capacidad de interpretación de datos sin necesidad de hojas de cálculo.
-
-Simulación de una herramienta real de apoyo comercial con estructura profesional para portafolio.
-
-https://public.tableau.com/app/profile/guillermo.teran3150 
-
-https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos?publish=yes
-
-https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos 
-
+---
 
 # Case Study: Agrochemical Sales Dashboard
 
-## Us English
+## US English
 
-Project Description
+**Role:** Data Analyst / Visualization  
+**Technologies:** Tableau Public, Microsoft Excel
 
+### Project Description  
 As part of a personal project focused on my professional development, I designed an interactive dashboard in Tableau Public to analyze monthly sales of agrochemical products at two locations (a main store and a branch). The goal was to create a visual tool that would allow for data-driven decision-making within a company in the sector, covering key metrics such as sales, profit, and performance by product family.
 
-## Project Objectives
-Visualize monthly sales of agrochemical products by store.
+### Project Objectives  
+- Visualize monthly sales of agrochemical products by store.  
+- Measure the performance of the main product families.  
+- Identify the best-selling products (top 10).  
+- Evaluate the profit generated by product and by location.  
+- Enable a comparative analysis between the main store and the branch.
 
-Measure the performance of the main product families.
+### Data Source  
+File: Ventas_Agroquimicos.xlsx (Local document)  
 
-Identify the best-selling products (top 10).
+Table structure:  
+- Document_Type, Document_Number, Issue_Date  
+- Product_Reference, Product, Quantity_Sold  
+- Unit_Price, Unit_Cost  
+- Sales_Discount, Affiliate_Discount, Affiliate_Card  
+- Product_Subfamily, Product_Family  
+- Customer, Total_Sales_Discount, Total_Affiliate_Discount  
+- Total_Cost, Total_Sales, Profit  
+- Sales_Unit, Store, Sales_Time
 
-Evaluate the profit generated by product and by location.
-
-Enable a comparative analysis between the main store and the branch.
-
-## Data Source
-File: Ventas_Agroquimicos.xlsx
-Location: Local document
-Table structure:
-
-Document_Type, Document_Number, Issue_Date
-
-Product_Reference, Product, Quantity_Sold
-
-Unit_Price, Unit_Cost
-
-Sales_Discount, Affiliate_Discount, Affiliate_Card
-
-Product_Subfamily, Product_Family
-
-Customer, Total_Sales_Discount, Total_Affiliate_Discount
-
-Total_Cost, Total_Sales, Profit
-
-Sales_Unit, Store, Sales_Time
-
-## Update Frequency
+### Update Frequency  
 Fixed data used for analysis (does not include real-time updates).
 
-## Dashboard Users
-Target users: Professionals in the commercial and analytical areas of the agrochemical sector.
-Estimated use: Weekly or monthly, to evaluate product and point of sale performance.
+### Dashboard Users  
+Target users: Professionals in the commercial and analytical areas of the agrochemical sector.  
+Estimated use: weekly or monthly to evaluate product and point of sale performance.
 
-## Dashboard Content and Visualizations
-General KPIs: Total sales, total profit, profit percentage. ✅
+### Dashboard Content and Visualizations  
+- General KPIs: total sales, total profit, profit percentage. ✅  
+- Bar chart: top 10 best-selling products. ✅  
+- Line chart: sales evolution over time. ✅  
+- Available filters:  
+  - Month (January, February) ✅  
+  - Store (main, branch) ✅  
+  - Product family ✅  
+- All filters interact with the main visualizations. ✅
 
-Bar chart: Top 10 best-selling products. ✅
+### Tools Used  
+- Visualization and dashboard: Tableau Public  
+- Preliminary data processing: Microsoft Excel  
+- Database: simulated flat file
 
-Line chart: Sales evolution over time. ✅
+### Analysis Performed with the Dashboard  
+- What are the best-selling products?  
+  The dashboard identifies the monthly top 10 by quantity sold.  
+- How does profitability vary between stores?  
+  The profit generated by the store and product family is displayed.  
+- What impact do product families have on total sales?  
+  The filter allows you to analyze how certain families dominate sales in each store.
 
-Available filters:
+### Key Insights  
+- The main store generates higher revenue, but the branch shows higher profit margins in certain families.  
+- Some families have high turnover but low profitability, which may motivate changes in prices or promotions.  
+- The ranking of best-selling products helps focus commercial and inventory efforts.
 
-Month (January, February) ✅
+### Results and Benefits  
+- Automation of monthly sales analysis, facilitating clear and quick visualization.  
+- Improved data interpretation capabilities without the need for spreadsheets.  
+- Simulation of a real commercial support tool with a professional structure for the portfolio.
 
-Store (main, branch) ✅
-
-Product family ✅
-
-All filters interact with the main visualizations. ✅
-
-## Tools Used
-Visualization and dashboard: Tableau Public
-
-Preliminary data processing: Microsoft Excel
-
-Database: Simulated flat file
-
-Analysis Performed with the Dashboard
-What are the best-selling products?
-The dashboard identifies the monthly top 10 by quantity sold.
-
-How does profitability vary between stores?
-The profit generated by the store and product family is displayed.
-
-What impact do product families have on total sales?
-The filter allows you to analyze how certain families dominate sales in each store.
-
-## Key Insights
-The main store generates higher revenue, but the branch shows higher profit margins in certain families.
-
-Some families have high turnover but low profitability, which may motivate changes in prices or promotions.
-
-The ranking of best-selling products helps focus commercial and inventory efforts.
-
-## Results and Benefits
-Automation of monthly sales analysis, facilitating clear and quick visualization.
-
-Improved data interpretation capabilities without the need for spreadsheets.
-
-Simulation of a real commercial support tool with a professional structure for the portfolio.
-
-https://public.tableau.com/app/profile/guillermo.teran3150 
-
-https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos?publish=yes
-
-https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos 
-
-
-
-
+### Dashboard Links  
+- [Tableau Public Profile](https://public.tableau.com/app/profile/guillermo.teran3150)  
+- [Agrochemical Products Dashboard (Public)](https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos?publish=yes)  
+- [Agrochemical Products Dashboard](https://public.tableau.com/app/profile/guillermo.teran3150/viz/DashboardProductosAgroquimicos/DashboardVentasProductosAgroquimicos)  
